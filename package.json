@@ -1,0 +1,37 @@
+{
+  "name": "gulp-sass-pug-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple starter boilerplate for building HTML templates with Gulp, Sass and Pug",
+  "keywords": [
+    "gulp",
+    "sass",
+    "pug",
+    "postcss",
+    "cssnano",
+    "browser-sync"
+  ],
+  "author": "Randys Machado (https://randys.dev)",
+  "main": "gulpfile.js",
+  "license": "ISC",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "autoprefixer": "^10.3.6",
+    "browser-sync": "^2.27.5",
+    "cssnano": "^5.0.8",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss": "^8.3.8",
+    "sass": "^1.42.1"
+  }
+}
